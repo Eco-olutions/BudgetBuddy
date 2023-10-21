@@ -1,0 +1,62 @@
+.Teco{
+    padding: 65px;
+    position:relative;left:-20px;  top: -35px;
+}   
+
+.Tmis,.Twhy,.Tour,.Tpric{
+    padding: 75px;
+    position:relative;left:-20px;  top: -36px;
+}
+
+
+.Teco,.Tmis,.Twhy,.Tour,.Tpric{
+    display: block;
+    color: rgb(255,238,219);
+   display: inline-block; 
+   background-color: rgb(94, 118, 123);
+   font-family:fantasy;
+   position:relative;
+   outline: 33px solid rgb(94, 118, 123);
+   padding-right: 94px;
+   
+}  
+body{
+    background-color:rgb(255,238,219);
+}
+
+
+.Teco:hover{
+    color: black;
+}
+.Tmis:hover{
+    color: black;
+}
+.Twhy:hover{
+    color: black;
+}
+.Tour:hover{
+    color: black;
+}
+.Tpric:hover{
+    color: black;
+}
+
+.slogan{
+    width: 400px;
+   border: 15px solid rgb(217, 217, 217);
+   padding: 50px;
+   margin: 20px;
+   background-color: rgb(217, 217, 217); ;
+ }
+.slogan2{
+    width: 600px;
+    height: 300px;
+   border: 15px solid rgb(163, 119, 116); 
+   padding: 50px;
+   margin: 80px;
+   background-color: rgb(163, 119, 116); 
+   position:relative;left:-20px;  top: -56px;}
+
+ .slogan,.slogan2{
+    display:inline-block
+ }
