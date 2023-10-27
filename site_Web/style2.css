@@ -45,15 +45,22 @@ body{
     color: #746a5f;}
 
 
-.slogan{
+.slogan {
   width: 400px;
   border: 35px solid rgb(217, 217, 217);
-  padding: 80px;
+  padding: 20px;
   padding-left: 0%;
-  padding-top: 20%;
-  padding-bottom: 0px;
+  padding-top: 0%;
+  padding-bottom: 10px;
   margin: 60px;
-  background-color: rgb(217, 217, 217); ;
+  text-align:initial;
+  background-color: rgb(217, 217, 217); 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  font-size: larger;
+  font-weight: bolder;
+  float: calc(100% - 100px);
+
 }
 .slogan2{
     width: 600px;
@@ -65,9 +72,12 @@ body{
    position:relative;left:-20px;  top: -56px;
  }
 
- .slogan,.slogan2{
-    display:inline-block
- }
+  
+
+
+.slogan, .slogan {
+  display:inline-block;
+}
 
  .logo{
   width: 100px;
