@@ -1,11 +1,11 @@
 
 .nav{
- list-style-type: none;
+    list-style-type: none;
     margin: 0;
-    padding: 40px;
+    padding: 30px;
     font-size: 0px;
-    background-color: rgb(94, 118, 123);
-
+    background-color: rgb(94, 118, 123)
+    ;
   } 
 
   .li1,.li1m{
@@ -16,7 +16,7 @@
   }
 
   .li1{
-    font-size: 20px;
+    font-size: 22px;
     font-family:fantasy;
   }
 
@@ -26,6 +26,7 @@
   }
   
   .lia1{
+    font-size: 15px;
     text-decoration: none;
     color: rgb(255,238,219);
     padding: 45px;
@@ -41,14 +42,17 @@ body{
 
 
 .lia1:hover{
-    color: black;}
+    color: #746a5f;}
 
 
 .slogan{
-   width: 400px;
-  border: 15px solid rgb(217, 217, 217);
-  padding: 50px;
-  margin: 20px;
+  width: 400px;
+  border: 35px solid rgb(217, 217, 217);
+  padding: 80px;
+  padding-left: 0%;
+  padding-top: 20%;
+  padding-bottom: 0px;
+  margin: 60px;
   background-color: rgb(217, 217, 217); ;
 }
 .slogan2{
@@ -72,4 +76,9 @@ body{
   
  }
 
- 
+ .mission {
+  width: 700px;
+  border-left: #746a5f;
+  border: 20px;
+  text-align:left;
+}
