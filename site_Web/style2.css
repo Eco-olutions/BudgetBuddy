@@ -45,7 +45,7 @@ body{
     color: #746a5f;}
 
 
-.slogan {
+.slogan, .aboutSlogan{
   width: 400px;
   border: 35px solid rgb(217, 217, 217);
   padding: 20px;
@@ -75,7 +75,7 @@ body{
   
 
 
-.slogan, .slogan {
+.slogan, .slogan, .aboutSlogan {
   display:inline-block;
 }
 
@@ -86,9 +86,39 @@ body{
   
  }
 
- .mission {
+ 
+ .mission{
   width: 700px;
   border-left: #746a5f;
   border: 20px;
+  text-align: justify;
   text-align:left;
+  font-size: medium;
+  font-family:'Arial';
+  padding: 25px 50px 60px 60px; ;
+  margin: 0px;
+}
+
+.section {
+font-size:xx-large;
+font-stretch: normal;
+font-style: initial;
+font-display:initial;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: bold;
+color: rgb(94, 118, 123);
+}
+
+
+.product{
+  width: 700px;
+  border-left: #746a5f;
+  border: 20px;
+  text-align: justify;
+  text-align:left;
+  font-size: medium;
+  font-family:'Arial';
+  padding: 25px 50px 60px 60px; ;
+  margin: 0px;
+
 }
