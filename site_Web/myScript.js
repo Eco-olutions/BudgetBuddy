@@ -34,4 +34,4 @@ function showReviews() {
     listItem.textContent = stockage[index];
     listElement.append(listItem);
 
-}
+}//a
