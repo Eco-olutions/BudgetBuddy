@@ -34,12 +34,9 @@
     margin: 5px;
   }
 
-
-
-
-
+  
 body{
-    background-color:rgb(255,238,219);
+  background-color:rgb(255,238,219);
 }
 
 
@@ -108,7 +105,7 @@ body{
   text-align:left;
   font-size: medium;
   font-family:'Arial';
-  padding: 25px 50px 60px 60px; ;
+  padding: 25px 50px 60px 30px; ;
   margin: 0px;
 }
 
@@ -141,7 +138,7 @@ color: rgb(94, 118, 123);
   text-align:left;
   font-size: medium;
   font-family:'Arial';
-  padding: 25px 50px 60px 60px; ;
+  padding: 25px 50px 100px 30px; ;
   margin: 0px;
 
 }
@@ -174,4 +171,12 @@ color: rgb(94, 118, 123);
   height: 250px;
   margin-top: 4rem;
   border-radius: 50%;
+}
+.header{
+  background : linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(\Image\image1.jpg);
+  height: 100vh;
+  text-align: center;
+  padding: 0;
+  display: table;
+  width: 100%
 }
