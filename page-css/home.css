@@ -1,0 +1,23 @@
+
+   
+.header a { 
+	color: #FFFFFF;
+	-moz-transition: all var(--button-fade-time) ease-in;
+  	-o-transition: all var(--button-fade-time) ease-in;
+  	-webkit-transition: all var(--button-fade-time) ease-in;
+	transition: all var(--button-fade-time) ease-in;
+}
+
+.header a:hover { 
+	font-weight: bold;
+	color: #3A7CB4;
+	-moz-transition: all var(--button-fade-time) ease-in;
+  	-o-transition: all var(--button-fade-time) ease-in;
+  	-webkit-transition: all var(--button-fade-time) ease-in;
+  	transition: all var(--button-fade-time) ease-in;
+}
+
+.header-text {
+	display: table-cell;
+	vertical-align: middle;
+}

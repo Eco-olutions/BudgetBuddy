@@ -1,0 +1,32 @@
+Overall Look and Feel of BudgetBuddy
+===============================
+
+The overall look and feel should be minimalist with some bright colors to attract attention. 
+
+Colours
+========
+For BudgetBuddy, we chose this combination of colors because it offers a harmonious blend of warmth and coolness.
+These are our color swatches:
+
+- #484A47 (Outer space)
+- #5C6D70 (Payne's gray)
+- #A37774 (Old rose)
+- #E88873 (Salmon)
+- #FFEEDB (Antique white)
+
+Iconography
+===========
+We will focus on using icons that have a minimalistic design, with no added depth or shading, which adheres to the overall look and feel of BudgetBuddy.
+
+
+Typography
+==========
+We will be using Playfair display, Abel,Inter, Besley from Google Fonts.
+
+Links
+=====
+Links will not be underlined and should change color(darker shade) when a user hovers over it.
+
+Buttons
+=======
+Buttons will be round edges, when you hover over each button it remains the same color but a darker shade.
