@@ -1,5 +1,30 @@
+.head_Flex{
+  display: flex;
+  background-color: blue;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
 
 .nav{
+  display: flex;
+  list-style: none;
+  margin-right: 10px;
+  justify-content: space-between ;
+
+
+}
+.li{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.logo{
+  width: 100px;
+}
+nav{
     list-style-type: none;
     margin: 0;
     padding: 30px;
@@ -8,24 +33,24 @@
     ;
   } 
 
-  .li1,.li1m{
+  li1,li1m{
     display: inline-block;
     height: 100%;
     padding: 25px;
 
   }
 
-  .li1{
+  li1{
     font-size: 22px;
     font-family:fantasy;
   }
 
-  .li1m{
+  li1m{
     font-size: 28px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   }
   
-  .lia1{
+  lia1{
     font-size: 15px;
     text-decoration: none;
     color: rgb(255,238,219);
@@ -89,12 +114,7 @@ body{
   display:inline-block;
 }
 
- .logo{
-  width: 100px;
-  height: 100px;
-  position:relative;top: 20px;
-  
- }
+
 
  
  .mission{
@@ -180,3 +200,4 @@ color: rgb(94, 118, 123);
   display: table;
   width: 100%
 }
+
