@@ -2,10 +2,9 @@
 .nav{
     list-style-type: none;
     margin: 0;
-    padding: 30px;
+    padding: 0px;
     font-size: 0px;
-    background-color: rgb(94, 118, 123)
-    ;
+    background-color: rgb(94, 118, 123);
   } 
 
   .li1,.li1m{
@@ -176,7 +175,7 @@ color: rgb(94, 118, 123);
   background : linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(\Image\image1.jpg);
   height: 100vh;
   text-align: center;
-  padding: 0;
+  padding: 0px;
   display: table;
   width: 100%
 }
