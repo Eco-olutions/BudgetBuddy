@@ -4,29 +4,57 @@
     margin: 0;
     padding: 30px;
     font-size: 0px;
-    background-color: rgb(94, 118, 123)
-    ;
+    width: 100%;
+    background-color: rgb(94, 118, 123);
   } 
+
+
+  .flex_container{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+.flex_item_1{
+  background-image: url(Image/image1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  
+
+  z-index: 1000;
+  margin-top: 200px;
+
+}
 
   .li1,.li1m{
     display: inline-block;
-    height: 100%;
     padding: 25px;
 
   }
 
+  header{
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+   position:fixed;
+    z-index: 1000;
+    background-color: sandybrown;
+    
+  }
+
+
+
   .li1{
-    font-size: 22px;
     font-family:fantasy;
+    font-size: 22px;
   }
 
   .li1m{
-    font-size: 28px;
+    font-size: 55px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   }
   
   .lia1{
-    font-size: 15px;
     text-decoration: none;
     color: rgb(255,238,219);
     padding-left: 70px;
@@ -37,6 +65,12 @@
   
 body{
   background-color:rgb(255,238,219);
+  margin: 0;
+  -webkit-font-smoothing:antialiased;
+ 
+ 
+  
+
 }
 
 
@@ -59,7 +93,7 @@ body{
   font-size: larger;
   font-weight: bolder;
   float: calc(100% - 100px);
-
+ 
 }
 .slogan2{
     width: 600px;
@@ -84,13 +118,16 @@ body{
   font-size: small;
 }
 
+.aboutSlogan{
+  
+}
 
 .slogan, .slogan, .aboutSlogan {
   display:inline-block;
 }
 
  .logo{
-  width: 100px;
+  width: 300px;
   height: 100px;
   position:relative;top: 20px;
   
@@ -179,4 +216,5 @@ color: rgb(94, 118, 123);
   padding: 0;
   display: table;
   width: 100%
+
 }
