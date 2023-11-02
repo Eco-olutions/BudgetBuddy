@@ -14,17 +14,38 @@
     flex-direction: column;
 
   }
-
-.flex_item_1{
+.flex_item_1_background{
+  display: flex;
+  align-content: center;
   background-image: url(Image/image1.jpg);
   background-repeat: no-repeat;
-  background-attachment: fixed;  
-  
-
-  z-index: 1000;
-  margin-top: 200px;
-
+  background-attachment: scroll;  
+  background-size: 100%;
+  opacity: 75%;
+  height: 792px;
+  margin-top: 117px;
+  width: 100%;
+  justify-content: center;
 }
+
+.flex_item_1{
+  display: flex;
+  background-color: rgba(255, 252, 252, 0.40);
+  height: 792px;
+  margin:0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flex_item_1 h1{
+  margin-bottom: 170px;
+  margin-top: 90px;
+  color: black;
+}
+
 
   .li1,.li1m{
     display: inline-block;
