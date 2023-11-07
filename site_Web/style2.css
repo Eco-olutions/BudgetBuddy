@@ -2,7 +2,7 @@
 .nav{
     list-style-type: none;
     margin: 0;
-    padding: 30px;
+    padding: 0px;
     font-size: 0px;
     width: 100%;
     background-color: rgb(94, 118, 123);
@@ -59,7 +59,7 @@
     width: 100%;
    position:fixed;
     z-index: 1000;
-    background-color: sandybrown;
+    background-color: #5C6D70;
     
   }
 
@@ -234,8 +234,24 @@ color: rgb(94, 118, 123);
   background : linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(\Image\image1.jpg);
   height: 100vh;
   text-align: center;
-  padding: 0;
+  padding: 0px;
   display: table;
   width: 100%
 
+}
+
+.footer {
+  border: 1px solid #d9d9d985;
+  background-color: #D9D9D9;
+  text-align: left;
+}
+.footersections {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+#footerlogo {
+padding-top: 10px;
+  width: 300px;
+  height: 100px;
 }
