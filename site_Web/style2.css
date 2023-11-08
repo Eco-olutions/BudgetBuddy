@@ -2,7 +2,7 @@
 .nav{
     list-style-type: none;
     margin: 0;
-    padding: 0px;
+    padding: 0;
     font-size: 0px;
     width: 100%;
     background-color: rgb(94, 118, 123);
@@ -23,7 +23,7 @@
   background-size: 100%;
   opacity: 75%;
   height: 792px;
-  margin-top: 117px;
+  margin-top: 70px;
   width: 100%;
   justify-content: center;
 }
@@ -48,8 +48,7 @@
 
 
   .li1,.li1m{
-    display: inline-block;
-    padding: 25px;
+
 
   }
 
@@ -59,17 +58,75 @@
     width: 100%;
    position:fixed;
     z-index: 1000;
-    background-color: #5C6D70;
+    background-color: sandybrown;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: 4fr auto minmax(600px,3fr);
     
   }
 
+  header h1{
+    border: 1px solid black;
+    font-size:20px;
+    padding-left: 0;
+ 
+  }
+header ul{
+}
 
 
+
+header li{
+  border: 1px solid black;
+  padding: 0;
+margin: 0;
+
+
+
+}
+
+
+nav{
+  display: flex;
+  border: 1px solid blue;
+  margin:0;
+  padding: 0;
+  grid-column: 3/4;
+  justify-content: flex-end;
+ 
+
+
+}
+nav ul {
+
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  
+
+}
+
+@media screen and (min-width:730px) {
+  .li{
+    display: none;
+  }
+  
+}
+.li1:checked ~ ul {
+  all:unset;
+}
   .li1{
     font-family:fantasy;
     font-size: 22px;
+    padding-inline-start: 10px ;
+    display: inline-block;
+    padding: 0px 20px;
+    
   }
-
+li a{
+  transition: all 0.3s ease 0s;
+}
   .li1m{
     font-size: 55px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
@@ -78,9 +135,10 @@
   .lia1{
     text-decoration: none;
     color: rgb(255,238,219);
-    padding-left: 70px;
-    justify-content: right;
-    margin: 5px;
+
+    margin: 0;
+    padding: 0;
+    
   }
 
   
@@ -234,7 +292,7 @@ color: rgb(94, 118, 123);
   background : linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(\Image\image1.jpg);
   height: 100vh;
   text-align: center;
-  padding: 0px;
+  padding: 0;
   display: table;
   width: 100%
 
@@ -243,12 +301,11 @@ color: rgb(94, 118, 123);
 .footer {
   border: 30px solid #d9d9d985;
   background-color: #D9D9D9;
-  text-align: center;
   text-decoration: none;
 }
 .footersections {
   display: inline-block;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 50px;
   vertical-align: top;
   text-align: center;
   color: #5C6D70;
@@ -259,15 +316,19 @@ color: rgb(94, 118, 123);
 .footerlogo {
   color: #5C6D70;
   border: 2px #526163 ;
-  padding-top: 10px;
   width: 300px;
   height: 100px;
   text-align: left;
 }
 #footerlinks {
   vertical-align: top;
-  color:#5c6d707a;
+  color:#505b5e;
 }
+
+#footerlinks:hover {
+  color: #4b575a;
+}
+
 a {
   text-decoration: none;
 }
