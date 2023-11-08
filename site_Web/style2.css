@@ -103,7 +103,6 @@ nav ul {
   list-style: none;
   align-items: center;
   justify-content: space-around;
-  padding: ;
   
 
 }
@@ -114,7 +113,7 @@ nav ul {
   }
   
 }
-.li1: :checked ~ ul{
+.li1:checked ~ ul {
   all:unset;
 }
   .li1{
@@ -297,4 +296,39 @@ color: rgb(94, 118, 123);
   display: table;
   width: 100%
 
+}
+
+.footer {
+  border: 30px solid #d9d9d985;
+  background-color: #D9D9D9;
+  text-decoration: none;
+}
+.footersections {
+  display: inline-block;
+  padding: 10px 50px;
+  vertical-align: top;
+  text-align: center;
+  color: #5C6D70;
+  text-decoration: none;
+  font-size: larger;
+  font-weight:bolder;
+}
+.footerlogo {
+  color: #5C6D70;
+  border: 2px #526163 ;
+  width: 300px;
+  height: 100px;
+  text-align: left;
+}
+#footerlinks {
+  vertical-align: top;
+  color:#505b5e;
+}
+
+#footerlinks:hover {
+  color: #4b575a;
+}
+
+a {
+  text-decoration: none;
 }
