@@ -8,7 +8,6 @@
     background-color: rgb(15, 15, 15)
   } 
 
-
   .flex_container{
     display: flex;
     flex-direction: column;
@@ -17,7 +16,6 @@
   .flex_item_1_background{
     display: flex;
     align-content: center;
-    background-image: url(Image/image1.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;  
     background-size: 100%;
@@ -31,13 +29,14 @@
 .flex_item_1{
   display: flex;
   background-color: rgba(255, 252, 252, 0.40);
-  height: 800px;
+  height: 1242px;
   margin:0;
   position: absolute;
   width: 100%;
   text-align: center;
   align-items: center;
   flex-direction: column;
+  font-family: "Bowlby One";
 }
 
 .flex_item_1 h1{
@@ -56,7 +55,7 @@
     display: flex;
     
     width: 100%;
-   position:fixed;
+    position:fixed;
     z-index: 1000;
     background-color: rgb(92,109,112);
     justify-content: space-between;
@@ -195,7 +194,6 @@ body{
   
  }
 
- 
  .mission{
   width: 700px;
   border-left: #746a5f;
@@ -227,7 +225,6 @@ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 font-weight: 200;
 color: rgb(94, 118, 123);
 }
-
 
 .product{
   width: 700px;
@@ -315,4 +312,12 @@ color: rgb(94, 118, 123);
 
 a {
   text-decoration: none;
+}
+
+.Team-intro{
+font-family: "Bowlby One";
+font-size: larger;
+font-weight: 700;
+color: rgb(174, 131, 131);
+
 }
