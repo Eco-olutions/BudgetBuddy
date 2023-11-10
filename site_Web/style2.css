@@ -12,21 +12,21 @@
   .flex_container{
     display: flex;
     flex-direction: column;
-
   }
-.flex_item_1_background{
-  display: flex;
-  align-content: center;
-  background-image: url(Image/image1.jpg);
-  background-repeat: no-repeat;
-  background-attachment: scroll;  
-  background-size: 100%;
-  opacity: 75%;
-  height: 792px;  
-  margin-top: 65px;
-  width: 100%;
-  justify-content: center;
-}
+
+  .flex_item_1_background{
+    display: flex;
+    align-content: center;
+    background-image: url(Image/image1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;  
+    background-size: 100%;
+    opacity: 75%;
+    height: 792px;  
+    margin-top: 65px;
+    width: 100%;
+    justify-content: center;
+  }
 
 .flex_item_1{
   display: flex;
@@ -74,16 +74,10 @@
 header ul{
 }
 
-
-
 header li{
   padding: 0;
 margin: 0;
-
-
-
 }
-
 
 nav{
   display: flex;
@@ -92,8 +86,6 @@ nav{
   padding: 0;
   grid-column: 3/4;
   justify-content: flex-end;
- 
-
 
 }
 nav ul {
@@ -102,7 +94,6 @@ nav ul {
   list-style: none;
   align-items: center;
   justify-content: space-around;
-  
 
 }
 
@@ -140,21 +131,14 @@ li a{
     
   }
 
-  
 body{
   background-color:rgb(255,238,219);
   margin: 0;
   -webkit-font-smoothing:antialiased;
- 
- 
-  
-
 }
-
 
 .lia1:hover{
     color: #000000;}
-
 
 .slogan, .aboutSlogan{
   width: 400px;
