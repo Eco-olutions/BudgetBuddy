@@ -36,13 +36,26 @@
   text-align: center;
   align-items: center;
   flex-direction: column;
-  font-family: "Bowlby One";
 }
 
 .flex_item_1 h1{
   margin-bottom: 170px;
   margin-top: 90px;
-  color: black;
+  color:  rgb(92,109,112);
+  font-family: "Bowlby One SC";
+  font-size: 130px;
+}
+
+.homepageslogan{
+  margin-bottom: 200px;
+  padding-top: 300px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-top: 90px;
+  color: rgb(255,238,219);
+  font-family: "Bowlby One SC";
+  font-size: 20px;
+  text-align: center;
 }
 
 
@@ -170,6 +183,7 @@ body{
   text-align: left;
   padding-left: 25px;
   font-size:larger;
+  color: rgb(94, 118, 123)
 }
 
 .pricingsub{
@@ -177,6 +191,7 @@ body{
   padding-left: 25px;
   padding-right: 20px;
   font-size: small;
+  color: rgb(94, 118, 123)
 }
 
 .aboutSlogan{
@@ -268,6 +283,14 @@ color: rgb(94, 118, 123);
   margin-top: 4rem;
   border-radius: 50%;
 }
+
+.Team-Content{
+  font-family: "Bowlby One";
+  font-size: larger;
+  font-weight: 700;
+  color: rgb(174, 131, 131)
+}
+
 .header{
   background : linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(\Image\image1.jpg);
   height: 100vh;
@@ -279,7 +302,7 @@ color: rgb(94, 118, 123);
 }
 
 .footer {
-  border: 30px solid #d9d9d985;
+  border: 50px solid #d9d9d985;
   background-color: #D9D9D9;
   text-decoration: none;
   text-align: center;
@@ -319,5 +342,51 @@ font-family: "Bowlby One";
 font-size: larger;
 font-weight: 700;
 color: rgb(174, 131, 131);
-
+padding-bottom: 60px;
 }
+
+.mission-content{
+  font-family: "Bowlby One";
+  font-weight: 700;
+  color: rgb(94, 118, 123)
+}
+
+.signup {
+	display: inline-block;
+	border-radius: 30px;
+	background-color: rgb(174, 131, 131);
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 28px;
+  padding: 20px;
+	width: 250px;
+	transition: all 1s;
+	cursor:pointer;
+	margin: 85px;
+  }
+  
+.signup span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+  }
+  
+.signup span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+  }
+  
+.signup:hover span {
+	padding-right: 25px;
+  }
+  
+.signup:hover span:after {
+	opacity: 1;
+	right: 0;
+  }
