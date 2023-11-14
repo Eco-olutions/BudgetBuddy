@@ -392,3 +392,26 @@ padding-bottom: 60px;
 	opacity: 1;
 	right: 0;
   }
+
+.contactp{
+  width: 700px;
+  border-left: #746a5f;
+  border: 20px;
+  text-align: justify;
+  text-align:left;
+  padding: 25px 50px 60px 30px; ;
+  margin: 0px;
+  color: lightslategray;
+  font-family: "Bowlby One";
+  font-size: larger;
+  font-weight: 700;
+  }
+
+.cu{
+  padding: 25px 50px 60px 30px; ;
+  margin: 0px;
+  color: lightslategray;
+  font-family: "Bowlby One";
+  font-size: large;
+  font-weight: 700
+}
