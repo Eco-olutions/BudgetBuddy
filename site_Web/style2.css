@@ -20,7 +20,7 @@
     background-attachment: scroll;  
     background-size: 100%;
     opacity: 75%;
-    height: 850px;  
+    height: 831px;  
     margin-top: 40px;
     width: 100%;
     justify-content: center;
@@ -29,7 +29,7 @@
 .flex_item_1{
   display: flex;
   background-color: rgba(255, 252, 252, 0.40);
-  margin:0;
+  margin-top: 27px;
   position: absolute;
   width: 100%;
   text-align: center;
