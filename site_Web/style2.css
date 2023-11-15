@@ -74,6 +74,7 @@
     justify-content: space-between;
     align-items: center;
     grid-template-columns: 4fr auto minmax(600px,3fr);
+    position: relative;
     
   }
 
@@ -415,3 +416,10 @@ padding-bottom: 60px;
   font-size: large;
   font-weight: 700
 }
+
+body{
+  margin: 0;
+  padding: 0;
+
+}
+
