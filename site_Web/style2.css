@@ -20,7 +20,7 @@
     background-attachment: scroll;  
     background-size: 100%;
     opacity: 75%;
-    height: 828px;  
+    height: 100%;  
     margin-top: 25px;
     width: 100%;
     justify-content: center;
@@ -32,6 +32,7 @@
   margin-top: 27px;
   position: absolute;
   width: 100%;
+  height: 100%;
   text-align: center;
   align-items: center;
   flex-direction: column;
@@ -66,7 +67,7 @@
   header{
     display: flex;
     width: 100%;
-    height: 9%;
+    height: 11%;
     position:fixed;
     z-index: 1000;
     background-color: rgb(92,109,112);
@@ -75,6 +76,7 @@
     grid-template-columns: 4fr auto minmax(600px,3fr);
     position: fixed;
     top:0;
+
   }
 
   header h1{
@@ -94,7 +96,7 @@ margin: 0;
 nav{
   display: flex;
 
-  margin:0;
+
   padding: 0;
   grid-column: 3/4;
   justify-content: flex-end;
