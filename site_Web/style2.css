@@ -364,6 +364,17 @@ color: rgb(174, 131, 131);
 padding-bottom: 60px;
 }
 
+.Features-intro{
+font-family: "Bowlby One";
+font-size:x-large;
+font-weight: 700;
+color: rgb(174, 131, 131);
+padding-bottom: 60px;
+text-align: center;
+padding-left: 60px;
+padding-right: 60px;
+}
+
 .mission-content{
   font-family: "Bowlby One";
   font-weight: 700;
@@ -418,7 +429,7 @@ padding-bottom: 60px;
   border: 20px;
   text-align: justify;
   text-align:left;
-  padding: 25px 50px 60px 30px; ;
+  padding: 25px 50px 60px 30px;
   margin: 0px;
   color: lightslategray;
   font-family: "Bowlby One";
@@ -438,6 +449,39 @@ padding-bottom: 60px;
 body{
   margin: 0;
   padding: 0;
+}
 
+.in-between-text {
+  padding-left: 5em;
+  padding-right: 5em;
+  margin-bottom: var(--navbar-height);
+  padding-bottom: 15em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-title {
+  background-color: rgb(94, 118, 118);
+  font-size: 1.75em;
+  height: 80px;
+  width: 100%;
+  font-family: "Bowlby One";
+  color: #D9D9D9;
+}
+
+td {
+  vertical-align: middle;
+}
+
+.img-feature {
+  width: 49vw;
+}
+
+.convenient-text, .reliable-text{
+  font-size: 1.25em;
+  text-align: center;
 }
 
