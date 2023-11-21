@@ -23,27 +23,21 @@
         
     <body>
         <center>
-        <h1 class="get">Get in Touch!</h1>
-        <p class="contactp">We'd love to hear from you!</p>
-        <div class="cu">
-            Name:
-            <br>
-            <textarea id="feedbackZone" rows="2" cols="40">
-            </textarea>
-            <br>
-            Email:
-            <br>
-            <textarea id="feedbackZone" rows="2" cols="40">
-            </textarea>
-            <br>
-            Message:
-            <br>
-            <textarea id="feedbackZone" rows="5" cols="40">
+        <h1 class="section"><center>Get in Touch!<br>We'd love to hear from you.</center></h1>
+        <div class="form">
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname" name="name"><br><br>
+                    
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br><br>
+                    
+                    <label for = "feedback">Feedback:</label><br>
+                    <input type="message" id="feedback" name="message"
+            
+                </div>
 
-            </textarea>
-        </div>
-        <div>
-            <button onclick="montreFeedback()" class="buttun" id="send"> Contact </button>
+        <div class="contactbutton">
+            <button class="signup" onclick="location.href='pricing.html'"><span>Send Message</span></button>
         </div>
         </center>
 

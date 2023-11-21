@@ -453,29 +453,6 @@ padding-right: 60px;
 	right: 0;
   }
 
-.contactp{
-  width: 700px;
-  border-left: #746a5f;
-  border: 20px;
-  text-align: justify;
-  text-align:left;
-  padding: 25px 50px 60px 30px;
-  margin: 0px;
-  color: lightslategray;
-  font-family: "Bowlby One";
-  font-size: larger;
-  font-weight: 700;
-  }
-
-.cu{
-  padding: 25px 50px 60px 30px; ;
-  margin: 0px;
-  color: lightslategray;
-  font-family: "Bowlby One";
-  font-size: large;
-  font-weight: 700
-}
-
 body{
   margin: 0;
   padding: 0;
@@ -514,5 +491,11 @@ td {
 .convenient-text, .reliable-text{
   font-size: 1.25em;
   text-align: center;
+}
+
+form {
+	text-align: center;
+	margin: calc(var(--navbar-height) + 1rem) auto auto auto;
+	height: calc(100vh - var(--navbar-height));
 }
 
