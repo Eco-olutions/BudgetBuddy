@@ -20,7 +20,7 @@
     background-attachment: scroll;  
     background-size: 100%;
     opacity: 75%;
-    height: 828px;  
+    height: 100%;  
     margin-top: 25px;
     width: 100%;
     justify-content: center;
@@ -32,6 +32,7 @@
   margin-top: 27px;
   position: absolute;
   width: 100%;
+  height: 100%;
   text-align: center;
   align-items: center;
   flex-direction: column;
@@ -66,7 +67,7 @@
   header{
     display: flex;
     width: 100%;
-    height: 9%;
+    height: 11%;
     position:fixed;
     z-index: 1000;
     background-color: rgb(92,109,112);
@@ -75,10 +76,11 @@
     grid-template-columns: 4fr auto minmax(600px,3fr);
     position: fixed;
     top:0;
+
   }
 
   header h1{
-   
+   margin-left: 10px;
     font-size:26px;
     padding-left: 0;
  
@@ -94,7 +96,7 @@ margin: 0;
 nav{
   display: flex;
 
-  margin:0;
+
   padding: 0;
   grid-column: 3/4;
   justify-content: flex-end;
@@ -115,6 +117,31 @@ nav ul {
   }
   
 }
+
+.membername:checked ~ ul{
+  all:unset;
+}
+
+.membername1{
+  font-family:fantasy;
+  font-size: 22px;
+  padding-inline-start: 10px ;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+membername a{
+  transition: all 0.3s ease 0s;
+}
+
+.membernamea1{
+  text-decoration: none;
+  color:  rgb(163, 119, 116); 
+  margin: 0;
+  padding: 0;
+  
+}
+
 .li1:checked ~ ul {
   all:unset;
 }
@@ -132,16 +159,19 @@ li a{
 }
   .li1m{
     font-size: 55px;
+
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   }
   
   .lia1{
     text-decoration: none;
     color: rgb(255,238,219);
-
     margin: 0;
     padding: 0;
-    
+  }
+
+  .membernamea1:hover{
+    text-decoration: underline;
   }
 
 body{
@@ -216,10 +246,11 @@ body{
   border: 20px;
   text-align: justify;
   text-align:left;
-  font-size: medium;
+  font-size: 19px;
   font-family:'Arial';
   padding: 25px 50px 60px 30px; ;
   margin: 0px;
+  font-family:"Bowlby One" ;
 }
 
 .section {
@@ -364,6 +395,17 @@ color: rgb(174, 131, 131);
 padding-bottom: 60px;
 }
 
+.Features-intro{
+font-family: "Bowlby One";
+font-size:x-large;
+font-weight: 700;
+color: rgb(174, 131, 131);
+padding-bottom: 60px;
+text-align: center;
+padding-left: 60px;
+padding-right: 60px;
+}
+
 .mission-content{
   font-family: "Bowlby One";
   font-weight: 700;
@@ -412,32 +454,49 @@ padding-bottom: 60px;
 	right: 0;
   }
 
-.contactp{
-  width: 700px;
-  border-left: #746a5f;
-  border: 20px;
-  text-align: justify;
-  text-align:left;
-  padding: 25px 50px 60px 30px; ;
-  margin: 0px;
-  color: lightslategray;
-  font-family: "Bowlby One";
-  font-size: larger;
-  font-weight: 700;
-  }
-
-.cu{
-  padding: 25px 50px 60px 30px; ;
-  margin: 0px;
-  color: lightslategray;
-  font-family: "Bowlby One";
-  font-size: large;
-  font-weight: 700
-}
-
 body{
   margin: 0;
   padding: 0;
+}
 
+.in-between-text {
+  padding-left: 5em;
+  padding-right: 5em;
+  margin-bottom: var(--navbar-height);
+  padding-bottom: 15em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-title {
+  background-color:  rgb(92,109,112);
+  font-size: 1.75em;
+  height: 80px;
+  width: 100%;
+  font-family: "Bowlby One";
+  color:#D9D9D9;
+}
+
+td {
+  vertical-align: middle;
+}
+
+.img-feature {
+  width: 49vw;
+  border-radius: 20px;
+}
+
+.convenient-text, .reliable-text{
+  font-size: 1.25em;
+  text-align: center;
+}
+
+form {
+	text-align: center;
+	margin: calc(var(--navbar-height) + 1rem) auto auto auto;
+	height: calc(100vh - var(--navbar-height));
 }
 
