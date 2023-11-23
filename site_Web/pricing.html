@@ -2,25 +2,28 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>Pricing | BudgetBuddy</title> 
+        <title>BudgetBuddy</title> 
+        <link rel="icon" type="image/x-icon" href="Image/piggybank.png" >
         <link href="style2.css" rel="stylesheet">
-        
+       
     </head>
     <body>
+
       <header>
             
         <h1><a href="home.html" class="lia1">ECO$OLUTIONS</a></h1>
         <nav>
             <ul>
-                
                 <li class="li1"><a href="mission.html" class="lia1">Our Mission</a></li>
                 <li class="li1"><a href="features.html" class="lia1">Features</a></li>
                 <li class="li1"><a href="team.html" class="lia1">Our team</a></li>
                 <li class="li1"><a href="pricing.html" class="lia1">Pricing</a></li>
                 <li class="li1"><a href="contactus.html" class="lia1">Contact us</a></li>
+                
             </ul>
         </nav>
     </header>
+            </div>
             <center>
               <h1 class="section">PRICING </h1>
               <h2 class = "name">Choose Your Best Plan.</h2>
@@ -30,19 +33,21 @@
   <style>
     .container {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
     }
     .box {
       width: 300px;
-      height: 400px;
-      display: inline-block;
+      height: 440px;
+      display:inline;
       justify-content: center;
       text-align: center;
       align-items: center;
-      margin: 50px;
+      margin: 2%;
       border-radius: 30px;
       background-color: rgb(202, 208, 210);
-      
+      box-sizing: border-box;
     }
     .box span{
       color:rgb(174, 131, 131);
@@ -50,6 +55,22 @@
       text-align: center;
       padding-top: 20px;
       padding-bottom: 40px;
+    }
+
+    .trial-btn 
+    {
+      display: inline-block;
+      font-family: 'Arial';
+      font-size: 13px;
+      width:160px;
+      margin-top: auto;
+      padding: 10px 20px;
+      background-color: rgb(174, 131, 131); 
+      color:rgb(202, 208, 210); 
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
   </style>
 </head>
@@ -71,6 +92,7 @@
         </ul>
       </p>
     </div>
+    <button class="trial-btn" onclick="startFreeTrial('Standard')">Start Your Free Trial</button>
   </div>
 
   <div class = "box">
@@ -90,6 +112,7 @@
           </ul>
         </p>
       </div>
+      <button class="trial-btn" onclick="startFreeTrial('Premium')">Start Your Free Trial</button>
   </div>
 
   <div class = "box">
@@ -108,19 +131,27 @@
           </ul>
         </p>
       </div>
+      <button class="trial-btn" onclick="startFreeTrial('Professional')">Start Your Free Trial</button>
   </div>
   </div>
+</style>
+<div class = "foote">
+ <p><a href = "legal.html#">Terms & Conditions</a> | <a href = "legal.html#privacy">Privacy Policy</a> | Copyright © 2023 EcoSolutions inc. All rights reserved.</p>
+ </div>
 
-  <style>
-    body {
-      background-image: url(Image/potentialbackground.jpg);
-      background-repeat: no-repeat;
-      background-attachment: fixed;  
-      background-size: cover;
-    }
-    </style>
+ <script>
+  function startFreeTrial(plan) {
+    alert('You are starting a free trial for the ' + plan + ' plan. Enjoy!');
+    // You can add additional logic here, such as redirecting to a signup page or performing other actions
+  }
+</script>
 </body>
+<<<<<<< HEAD
 <div class = "foote">
   <p><a href = "legal.html#">Terms & Conditions</a> | <a href = "legal.html#privacy">Privacy Policy</a> | Copyright © 2023 EcoSolutions inc. All rights reserved.</p>
 </div>
+=======
+
+
+>>>>>>> 005003ca0b8786caaa5a285b28b85afc98979b6a
 </html>
