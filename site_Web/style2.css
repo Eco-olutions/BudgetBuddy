@@ -487,11 +487,14 @@ td {
 .img-feature {
   width: 49vw;
   border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .convenient-text, .reliable-text{
   font-size: 1.25em;
   text-align: center;
+  margin: 30px
 }
 
 form {
