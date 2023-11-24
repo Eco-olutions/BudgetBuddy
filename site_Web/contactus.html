@@ -46,24 +46,32 @@
         -->
         <h1 class="section"><center>Get in Touch!<br>We'd love to hear from you.</center></h1>
         <div class="contact-container">
-            <form>
+            <form onsubmit="sendEmail(); reset; return false; ">
                 <input type="text" id="fullname" placeholder="Your Name" required>
                 <input type="email" id="email" placeholder="Your Email" required>
                 <input type="message" id="feedback" placeholder="Your Feedback"></textarea>
                 <div class="contactbutton">
-                    <button class="signup" onclick="location.href='pricing.html'"><span>Send Message</span></button>
+                    <button class="signup"><span>Send Message</span></button>
                 </div>
             </form>
-
-
-
         </div>
 
-
-
-
-
-
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script>
+            function sendEmail(){
+                Email.send({
+                    Host : "smtp.elasticemail.com",
+                    Username : "ecosolutions",
+                    Password : "password",
+                    To : 'budgetbuddy@ecosolutions.com',
+                    From : document.getElementById("email").value,
+                    Subject : "New Contact Form Submitted",
+                    Body : "And this is the body"
+                }).then(
+                message => alert(message)
+                );
+            }
+        </script>
 
         <style>
             body {
