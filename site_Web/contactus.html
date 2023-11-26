@@ -23,27 +23,6 @@
     </header>
         
     <body>
-        <!--
-        <center>
-        <h1 class="section"><center>Get in Touch!<br>We'd love to hear from you.</center></h1>
-        <div class="form">
-                    <label for="fullname">Full Name:</label><br>
-                    <input type="text" id="fullname" name="name"><br><br>
-                    
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email"><br><br>
-                    
-                    <label for = "feedback">Feedback:</label><br>
-                    <input type="message" id="feedback" name="message"
-            
-                </div>
-        
-
-        <div class="contactbutton">
-            <button class="signup" onclick="location.href='pricing.html'"><span>Send Message</span></button>
-        </div>
-        </center>
-        -->
         <h1 class="section"><center>Get in Touch!<br>We'd love to hear from you.</center></h1>
         <div class="contact-container">
             <form onsubmit="sendEmail(); reset; return false; ">
@@ -55,23 +34,6 @@
                 </div>
             </form>
         </div>
-
-        <script src="https://smtpjs.com/v3/smtp.js"></script>
-        <script>
-            function sendEmail(){
-                Email.send({
-                    Host : "smtp.elasticemail.com",
-                    Username : "ecosolutions",
-                    Password : "password",
-                    To : 'budgetbuddy@ecosolutions.com',
-                    From : document.getElementById("email").value,
-                    Subject : "New Contact Form Submitted",
-                    Body : "And this is the body"
-                }).then(
-                message => alert(message)
-                );
-            }
-        </script>
 
         <style>
             body {
