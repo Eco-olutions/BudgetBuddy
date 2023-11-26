@@ -130,10 +130,6 @@ nav ul {
   padding: 0px 20px;
 }
 
-membername a{
-  transition: all 0.3s ease 0s;
-}
-
 .membernamea1{
   text-decoration: none;
   color:  rgb(163, 119, 116); 
@@ -146,28 +142,28 @@ membername a{
   all:unset;
 }
 
-  .li1{
-    font-family:fantasy;
-    font-size: 22px;
-    padding-inline-start: 10px ;
-    display: inline-block;
-    padding: 0px 20px;
-    
+.li1{
+  font-family:fantasy;
+  font-size: 22px;
+  padding-inline-start: 10px ;
+  display: inline-block;
+  padding: 0px 20px; 
   }
+
 li a{
   transition: all 0.3s ease 0s;
 }
-  .li1m{
-    font-size: 55px;
 
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+.li1m{
+  font-size: 55px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   }
   
-  .lia1{
-    text-decoration: none;
-    color: rgb(255,238,219);
-    margin: 0;
-    padding: 0;
+.lia1{
+  text-decoration: none;
+  color: rgb(255,238,219);
+  margin: 0;
+  padding: 0;
   }
 
   .membernamea1:hover{
@@ -487,16 +483,54 @@ td {
 .img-feature {
   width: 49vw;
   border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .convenient-text, .reliable-text{
   font-size: 1.25em;
   text-align: center;
+  margin: 30px
 }
 
 form {
 	text-align: center;
 	margin: calc(var(--navbar-height) + 1rem) auto auto auto;
 	height: calc(100vh - var(--navbar-height));
+}
+
+.contact-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 10px;
+  background:#d9d9d985;
+}
+
+form input, form textarea{
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: #f5f5f5;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
